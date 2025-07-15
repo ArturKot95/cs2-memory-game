@@ -1,11 +1,6 @@
 <template>
   <div id="app" class="min-h-screen bg-cs2-dark font-cs2">
-    <GameCard
-      emoji="😀"
-      :isFlipped="false"
-      :isMatched="false"
-      :isDisabled="false"
-    />
+    <NuxtPage />
   </div>
 </template>
 
